@@ -2,6 +2,7 @@ import {
   requireNativeComponent,
   UIManager,
   Platform,
+  ViewProps,
   ViewStyle,
 } from 'react-native';
 
@@ -11,10 +12,17 @@ const LINKING_ERROR =
   '- You rebuilt the app after installing the package\n' +
   '- You are not using Expo Go\n';
 
-type AudioGraphProps = {
+interface AudioGraphProps extends ViewProps {
   color: string;
   style: ViewStyle;
-};
+
+  title: string;
+  summary: string;
+  xTitle: string;
+  xValues: ReadonlyArray<number>;
+  yTitle: string;
+  yValues: ReadonlyArray<number>;
+}
 
 const ComponentName = 'AudioGraphView';
 
