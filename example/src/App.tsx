@@ -9,7 +9,6 @@ export default function App() {
       <AudioGraphView
         accessible
         accessibilityLabel={'Inner audio graph view'}
-        color="#32a852"
         style={styles.box}
         title={'Test graph title'}
         summary={'Text graph summary'}
