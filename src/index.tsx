@@ -13,7 +13,6 @@ const LINKING_ERROR =
   '- You are not using Expo Go\n';
 
 interface AudioGraphProps extends ViewProps {
-  color: string;
   style: ViewStyle;
 
   title: string;

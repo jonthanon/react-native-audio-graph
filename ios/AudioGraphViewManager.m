@@ -2,8 +2,6 @@
 
 @interface RCT_EXTERN_MODULE(AudioGraphViewManager, RCTViewManager)
 
-RCT_EXPORT_VIEW_PROPERTY(color, NSString)
-
 RCT_EXPORT_VIEW_PROPERTY(title, NSString)
 RCT_EXPORT_VIEW_PROPERTY(summary, NSString)
 RCT_EXPORT_VIEW_PROPERTY(xTitle, NSString)
